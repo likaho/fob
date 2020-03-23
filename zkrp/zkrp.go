@@ -22,7 +22,6 @@ type Response struct {
 func HandleLambdaEvent(request Request) (Response, error) {
 	params, _ := bulletproofs.SetupGeneric(request.Low, request.High)
 
-	// Our secret age is 15
 	bigSecret := new(big.Int).SetInt64(int64(request.Secret))
 
 	// Create the zero-knowledge range proof
