@@ -8,9 +8,9 @@ namespace ProsperChainFunctions
 {
     public class EthereumHelper
     {
-        private const string url = "https://rinkeby.infura.io/v3/7238211010344719ad14a89db874158c";
-        private const string privateKey = "A482B8A77F913DB6D6C3D21375CC886BD86CF70CBD8E8DF8B7FAE0BFAE590CE2";
-        private const string contractAddress = "0xa9066f7C218251a16e28781474C99dc56dc9dc8D";
+        private const string url = "https://rinkeby.infura.io/v3/723821101034................";
+        private const string privateKey = "A482B8A77F913DB6D6C3D21375CC886..................";
+        private const string contractAddress = "0xa9066f7C218251a16e28781.......................";
 
         public static ContractHandler GetContractHandler()
         {
